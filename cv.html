@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batool's CV</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+
+<style>
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        padding: 40px 20px 20px 20px;
+        margin-top: 50px;
+    }
+
+    .left,
+    .right {
+        flex: 1 1 300px;
+        max-width: 500px;
+    }
+
+    .left img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .right {
+        padding: 10px;
+
+    }
+
+    .right h1 {
+        font-size: 50px;
+
+    }
+
+    .right p {
+        font-size: 20px;
+
+    }
+
+    @media (max-width: 768px) {
+        .container {
+            flex-direction: column;
+        }
+
+        .left,
+        .right {
+            max-width: 100%;
+        }
+    }
+</style>
+
+
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Batool<span class="animate" style="--i:1;"></span></a>
+
+        <div class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></div>
+
+        <nav class="navbar">
+            <a href="index.html#home" class="active">Home</a>
+            <a href="index.html#about">About</a>
+            <a href="index.html#education">Education</a>
+            <a href="index.html#skills">Skills</a>
+            <a href="index.html#contact">Contact</a>
+
+            <span class="active-nav"></span>
+            <span class="animate" style="--i:2;"></span>
+        </nav>
+    </header>
+
+    <div class="container">
+            <div class="right">
+                <h1>MY <span>CV →</span></h1>
+                <p>Contact Number: 0323-8223066 <br> Email Address: batool.zehra2795@gmail.com <br> Languages: Urdu
+                    (Native
+                    Speaker) and English </p>
+
+            </div>
+            <div class="left">
+                <img src="images/cv.jpeg" alt="Sample" />
+            </div>
+
+        </div>
+
+        
+</body>
+
+</html>
